@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bundle-save-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading-with-hr {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading-with-hr h2 {
+  margin: 0 10px;
+}
+
+.heading-with-hr hr {
+  border: 0.5px solid #f1f1f1;
+  flex-grow: 1;
+}
+
+h2 {
+  text-align: center;
+  color: #33b28a;
+}
+
+.bundle-option {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px; 
+}
+
+.bundle-option:hover {
+    border: 2px solid #33b28a;
+    transition: border-color 0.3s ease;
+}
+
+.bundle-radio {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.bundle-radio label {
+    margin: 0; 
+}
+
+.bundle-discount {
+    text-align: right;
+}
+
+.bundle-option label {
+  display: block;
+}
+
+.bundle-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mostpopular {
+    font-weight: 500;
+    color: #33b28a;
+}
+
+.pair-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.pair-selection div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+
+.pair-selection label {
+  margin-left: 20px;
+}
+
+.pair-selection div select {
+  padding: 5px;
+  border: 0.5px solid #ccc;
+}
+
+.price-discount{
+    margin-left: 30px;
+    margin-top: 15px;
+    text-decoration: line-through;
+    font-size: smaller;
+    color: gray;
+}
+
+.total-price,
+.free-shipping {
+  text-align: center;
+}
+
+#add-to-cart-btn{
+    display: flex;
+    background-color: #007258;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+}
+.free-shipping{
+    color: #33b28a;
+}
+.copyright{
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+    margin-top: 10px;
+}
